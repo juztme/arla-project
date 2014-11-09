@@ -1,0 +1,14 @@
+#menu_pos{
+	position:absolute;
+	margin-right:1000px;
+	margin-top:1%;
+	left:970px;
+}
+ul li{
+	list-style-type:none;
+	}
+
+.file_menu {
+    display:none;
+	margin-left:-41px; /*this should make the hidden objects appear under the button that's hovered over when the menu drops down*/
+}

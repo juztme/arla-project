@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Yoggi Yalla Campaign</title>
+<link rel="stylesheet" type="text/css" href="../css/homepage.css"> <!--connecting the homepage css file to the index-->
+<link rel="stylesheet" type="text/css" href="../css/navigation.css"> <!--connecting the css file for the navigation bar to the index-->
+<link rel="stylesheet" type="text/css" href="../css/meter.css"> <!--connecting the css file for the thermometer to the index-->
+<link rel="stylesheet" type="text/css" href="../css/video.css"> <!--connecting the css file for the youtube video to the index-->
+<link rel="shortcut icon" type="image/png" href="../img/yoggilogo.png"> <!--adds a logo to the tab-->
+</head>
+
+<body>
+
+<img id = "background" src = "../img/index.png" alt = "bg"/> <!--the image used for the background-->
+<a href = "index.html"><img id = "yoggi" src = "../img/yoggi.png" alt = "yogi logo"/></a> <!--the Yoggi Yalla logo and link to the home page-->
+<a href = "http://www.arla.dk/" target = "_blank"><img id = "arla" src = "../img/arla-logo.png" alt = "arla logo"/></a> <!--Arla's logo + linking to Arla's Danish website. target = "_blank" is used for opening Arla's website in another tab.-->
+
+
+
+<a href = "index.html"><img id = "home" src = "../img/home.png" alt = "go home"/></a> <!--home button image and link to the home page-->
+
+<a href = "https://www.youtube.com/user/arlavideos" target = "_blank"><img id = "youtube" src = "../img/youtube.png" alt = "yt"/></a> <!--youtube icon and button-->
+<a href = "https://plus.google.com/109884093732375603512/posts" target = "_blank"><img id = "google" src = "../img/google.png" alt = "google"/></a> <!--google+ icon and button-->
+<a href = "https://www.facebook.com/ArlaFoods" target = "_blank"><img id = "facebook" src = "../img/facebook.png" alt = "fb"></a> <!--facebook icon and button-->
+
+<div id = "menu_pos">
+<ul class= "hover"> <!--making a dropdown menu for the characters' links-->
+<li class = "hoverli"><img id = "meet" src = "../img/meet_the_chars.png" alt = "meet the characters button"/> <!--"meet the characters" button image (parent button)-->
+	<ul class = "file_menu"> <!--dropdown menu elements made into a list-->
+    <li><a href = "lilyberry.html"><img src = "../img/lilyberry-nav/lilyberry-index.png" alt = "lilyberry"/></a></li>
+    <li><a href = "nanaberry.html"><img src = "../img/nanaberry-nav/nanaberry-index.png" alt = "nanaberry"/></a></li>
+    <li><a href = "pinilla.html"><img src = "../img/pinilla-nav/pinilla-index.png" alt = "pinilla"/></a></li>
+    <li><a href = "raspy.html"><img src = "../img/raspy-nav/raspy-index.png" alt = "raspy"/></a></li>
+    <li><a href = "stranilla.html"><img src = "../img/stranilla-nav/stranilla-index.png" alt = "stranilla"/></a></li>
+    </ul>
+    </li>
+</ul> <!--end of the list-->
+</div>
+
+<!--images for the thermometer-->
+<img id = "meter0" src = "../img/meter/meter0.png" alt = "first state"/>
+<img id = "meter1" src = "../img/meter/meter1.png" alt = "second state"/>
+<img id = "meter2" src = "../img/meter/meter2.png" alt = "third state"/>
+<img id = "meter3" src = "../img/meter/meter3.png" alt = "fourth state"/>
+<img id = "meter4" src = "../img/meter/meter4.png" alt = "fifth state"/>
+<!--end of the thermometer images-->
+
+<!--form for the field where the user inputs the product code and for the button that he/she is going to press-->
+<form name = "possibilities">
+<input id = "prodCode" type = "text" /> <!--input field for the product code-->
+<input id = "button" type = "button" value = "Save the city!" onClick= "validator()"/> <!--a button that submits the code that the user inputs in prodCode-->
+</form>
+
+<!--video on the TV screen with play and stop buttons; reference taken from https://developers.google.com/youtube/iframe_api_reference-->
+
+<div id="player">player</div> <!--this is where the video is going to be-->
+
+<div id = "playbutton"><img src = "../img/play-video.png" alt = "play button"/></div> <!--the play button on the remote-->
+<div id = "stopbutton"><img src = "../img/stop-video.png" alt = "stop button"/></div> <!--the stop button on the remote-->
+
+<!--end of video-->
+
+
+<script type = "text/javascript" src = "../js/jquery.js"></script> <!--connecting the jquery library to the index page-->
+<script type = "text/javascript" src = "../js/dropdown.js"></script> <!--connecting the drop-down menu javascript/jquery file to the index page-->
+<script type = "text/javascript" src = "../js/meter.js"></script> <!--connecting the meter javascript file to the index page-->
+<script type = "text/javascript" src = "../js/video.js"></script> <!--connecting the youtube video javascript file to the index page-->
+
+
+</body>
+</html>

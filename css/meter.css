@@ -1,0 +1,48 @@
+#meter0{
+	margin-top: 250px;
+	margin-left:200px;
+	}
+#meter1{
+	margin-top: 250px;
+	margin-left:200px;
+	display:none;
+	}
+#meter2{
+	margin-top: 250px;
+	margin-left:200px;
+	display:none;
+	}
+#meter3{
+	margin-top: 250px;
+	margin-left:200px;
+	display:none;
+	}
+#meter4{
+	margin-top: 250px;
+	margin-left:200px;
+	display:none;
+	}
+	
+#prodCode {
+	display:block;
+	margin-top:20px;
+	margin-left:170px;
+	}
+#button {
+	display:block;
+	margin-top:10px;
+	margin-left:200px;
+	}
+	
+#bomb{
+	display:none;
+	margin-top:-20px;
+	margin-left:135px;
+	}
+#incorrect{
+	display:none;
+	margin-top:-20px;
+	margin-left:165px;
+	}
+	
+

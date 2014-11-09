@@ -1,0 +1,58 @@
+/*limiting the body size due to different screen resolutions*/
+body {
+	width:1366px;
+	height:768px;
+	margin: auto;
+}
+
+#background{
+position:absolute;
+z-index:-1; /*makes the background image be under the other elements*/
+}
+
+#yoggi{
+	position:absolute;
+	margin-left: 200px;
+	margin-top: 1%;
+	}
+
+#arla {
+	position:absolute;
+	margin-left:400px;
+	margin-top:1%;
+	}
+	
+#home {
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 1%;
+	top: 16px;
+	}
+
+
+/*#meet {
+	position:absolute;
+	margin-left:1000px;
+	margin-top:1%;
+	border: 2px solid;
+	}*/ 
+
+#youtube{
+	position:absolute;
+	margin-left:850px;
+	margin-top:725px;
+	}
+	
+#google{
+	position:absolute;
+	margin-left:910px;
+	margin-top:725px;
+	}
+	
+#facebook{
+	position:absolute;
+	margin-left:970px;
+	margin-top:725px;
+	}
+	
+
